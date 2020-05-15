@@ -1,17 +1,14 @@
 import React from "react";
 import Header from "./Header";
 import Main from "./Main";
+import Categories from "./Categories";
 
 function Home() {
     return (
         <>
             <Header />
             <Main />
-            <div className='categories'>
-                <div className='coffee' />
-                <div className='food' />
-                <div className='tea' />
-            </div>
+            <Categories />
             <div className='footer' />
         </>
     );
