@@ -1,0 +1,28 @@
+.main {
+    width: 100vw;
+    height: 86vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .box {
+        width: 70vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        div {
+            color: white;
+        }
+        .text {
+            font-size: 4rem;
+            width: 100%;
+            text-align: start;
+        }
+        .mainText {
+            font-size: 9rem;
+            font-weight: bold;
+        }
+    }
+}

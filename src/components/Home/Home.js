@@ -1,27 +1,19 @@
 import React from "react";
+import Header from "./Header";
+import Main from "./Main";
 
 function Home() {
     return (
-        <div>
-            <div className='header'>
-                <div className='hamburger' />
-                <div className='menu'>
-                    <div className='aboutMe'/>
-                    <div className='contact' />
-                    <div className='logIn' />
-                </div>
-            </div>
-            <div className='empty'>
-                <div className='text' />
-                <div className='mainText' />
-            </div>
+        <>
+            <Header />
+            <Main />
             <div className='categories'>
                 <div className='coffee' />
                 <div className='food' />
                 <div className='tea' />
             </div>
             <div className='footer' />
-        </div>
+        </>
     );
 }
 

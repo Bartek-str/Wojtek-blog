@@ -1,0 +1,14 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    background: url("assets/image1.jpeg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    .top {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0, 0.3);
+        z-index: 2;
+    }
+}
