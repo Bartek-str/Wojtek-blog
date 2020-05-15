@@ -7,15 +7,15 @@ function Categories() {
         <>
             <div className='categories'>
                 <div className='coffee'>
-                    <div>Kawa</div>
+                    <div className='title'>Kawa</div>
                     <img src={ Coffee } alt='coffee' />
                 </div>
                 <div className='food'>
-                    <div>Jedzenie, wypieki...</div>
+                    <div className='title'>Jedzenie, wypieki...</div>
                     <div className='foodIMG' />
                 </div>
                 <div className='tea'>
-                    <div>Herbata</div>
+                    <div className='title'>Herbata</div>
                     <img src={ Tea } alt='tea' />
                 </div>
             </div>

@@ -9,6 +9,12 @@
     & > div {
         width: 25vw;
         height: 90vh;
+        .title {
+            font-size: 4rem;
+            text-align: center;
+            padding-bottom: 2vh;
+            color: rgb(25, 25, 25);
+        }
         img {
             width: 100%;
         }
