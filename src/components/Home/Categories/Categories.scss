@@ -1,0 +1,30 @@
+.categories {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    & > div {
+        width: 25vw;
+        height: 90vh;
+        img {
+            width: 100%;
+        }
+    }
+    .coffee {
+        padding-left: 5vw;
+    }
+    .food {
+        .foodIMG {
+            background-image: url("../../../assets/image0.jpeg");
+            background-size: cover;
+            background-position: center;
+            height: 50%;
+        }
+    }
+    .tea {
+        padding-right: 5vw;
+    }
+}
