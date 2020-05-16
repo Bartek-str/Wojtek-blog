@@ -1,6 +1,4 @@
 import React from "react";
-import Coffee from '../../../assets/IMG_2326.jpg';
-import Tea from '../../../assets/IMG_2750.jpg'
 
 function Categories() {
     return (
@@ -8,7 +6,7 @@ function Categories() {
             <div className='categories'>
                 <div className='coffee'>
                     <div className='title'>Kawa</div>
-                    <img src={ Coffee } alt='coffee' />
+                    <div className='coffeeIMG img' />
                     <div className='text'>
                         <span>To, co kocham i z czym pracuję.</span>
                         <span>Nawet nie pomyślałbyś ile jest sposobów jej parzenia, nie wspominając o jej gatunkach, szczepach, sposobach obróbki oraz miejscach pochodzenia.</span>
@@ -17,7 +15,7 @@ function Categories() {
                 </div>
                 <div className='food'>
                     <div className='title'>Jedzenie, wypieki...</div>
-                    <div className='foodIMG' />
+                    <div className='foodIMG img' />
                     <div className='text'>
                         <span>Jedzenie... co tu dużo przedstawiać</span>
                         <span>Każdy je kocha.</span>
@@ -28,7 +26,7 @@ function Categories() {
                 </div>
                 <div className='tea'>
                     <div className='title'>Herbata</div>
-                    <img src={ Tea } alt='tea' />
+                    <div className='teaIMG img' />
                     <div className='text'>
                         <span>Rozpieszcza smakiem, koi aromatem.</span>
                         <span>Dziesiątki odmian i plantacji od stuleci zadowalały cesarskie podniebienia a Ty pijesz ekspresówkę?</span>
