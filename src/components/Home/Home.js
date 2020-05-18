@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Main from "./Main";
 import Categories from "./Categories";
+import Footer from "./Footer";
 
 function Home() {
     return (
@@ -9,7 +10,7 @@ function Home() {
             <Header />
             <Main />
             <Categories />
-            <div className='footer' />
+            <Footer />
         </>
     );
 }
