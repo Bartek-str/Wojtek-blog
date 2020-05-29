@@ -3,6 +3,7 @@ import Header from "./Header";
 import Main from "./Main";
 import Categories from "./Categories";
 import Footer from "./Footer";
+import ShortAboutMe from "./ShortAboutMe";
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <Header />
             <Main />
             <Categories />
+            <ShortAboutMe />
             <Footer />
         </>
     );
