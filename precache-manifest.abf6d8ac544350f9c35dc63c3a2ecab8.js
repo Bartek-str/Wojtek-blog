@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ff3c77a4a25026a4bf60e0ab94c3654",
+    "revision": "87d8e8fdf28c9556fd4d105865f98080",
     "url": "/Wojtek-blog/index.html"
   },
   {
-    "revision": "68dc3d4ea99bd9a9ebc1",
-    "url": "/Wojtek-blog/static/css/main.1756c2bd.chunk.css"
+    "revision": "374015f296593681bd8d",
+    "url": "/Wojtek-blog/static/css/main.88c4702c.chunk.css"
   },
   {
     "revision": "bc8f1d5f6db89bfb3214",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Wojtek-blog/static/js/2.ad95cb9a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68dc3d4ea99bd9a9ebc1",
-    "url": "/Wojtek-blog/static/js/main.4b530d2e.chunk.js"
+    "revision": "374015f296593681bd8d",
+    "url": "/Wojtek-blog/static/js/main.82dc7635.chunk.js"
   },
   {
     "revision": "82fa3d11ac9d8a24e8d7",
