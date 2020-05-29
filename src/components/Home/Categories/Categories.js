@@ -19,7 +19,7 @@ function Categories() {
                     <div className='text'>
                         <span>Jedzenie... co tu dużo przedstawiać</span>
                         <span>Każdy je kocha.</span>
-                        <span>Jednak, czy wiesz skąd pochodzi biszkopt? Jak łatwo jest nie marnować produktów w kuchni? Że dobry posiłek wcale nie musi być skomplikowany oraz jak zorganizować swoją kuchnie.</span>
+                        <span>Jednak, czy wiesz skąd pochodzi biszkopt? Jak łatwo jest nie marnować produktów w&nbsp;kuchni? Że dobry posiłek wcale nie musi być skomplikowany oraz jak zorganizować swoją kuchnie.</span>
                         <span>...pssst poznasz sekret matek.</span>
                         <span>Jak ugotować coś z niczego.</span>
                     </div>

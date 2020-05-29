@@ -5,8 +5,8 @@ function Main() {
         <>
             <div className='main'>
                 <div className='box'>
-                    <div className='text'>wszystko co chciałbyś wiedzieć o</div>
-                    <div className='mainText'>Kawie, Herbacie i Jedzeniu</div>
+                    <div className='text'>wszystko, co chciałbyś wiedzieć o</div>
+                    <div className='mainText'>kawie, herbacie i jedzeniu</div>
                 </div>
             </div>
         </>
