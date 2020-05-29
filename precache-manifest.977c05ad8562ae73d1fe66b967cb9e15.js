@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "10b9ad8a9ab3b15bea2ceef0c0089cb9",
+    "revision": "738cf3e0611c3e57c8c354fd429a50c2",
     "url": "/Wojtek-blog/index.html"
   },
   {
-    "revision": "0a523ec7eda423bf601b",
-    "url": "/Wojtek-blog/static/css/main.ddb02c3a.chunk.css"
+    "revision": "9b5742d49d22f22c313b",
+    "url": "/Wojtek-blog/static/css/main.279ad32f.chunk.css"
   },
   {
-    "revision": "bc8f1d5f6db89bfb3214",
-    "url": "/Wojtek-blog/static/js/2.ad95cb9a.chunk.js"
+    "revision": "e25314d98a8b775f1861",
+    "url": "/Wojtek-blog/static/js/2.b5df13b0.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Wojtek-blog/static/js/2.ad95cb9a.chunk.js.LICENSE.txt"
+    "url": "/Wojtek-blog/static/js/2.b5df13b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0a523ec7eda423bf601b",
-    "url": "/Wojtek-blog/static/js/main.33a3dd2a.chunk.js"
+    "revision": "9b5742d49d22f22c313b",
+    "url": "/Wojtek-blog/static/js/main.a700a4e3.chunk.js"
   },
   {
     "revision": "82fa3d11ac9d8a24e8d7",
     "url": "/Wojtek-blog/static/js/runtime-main.0c6bd107.js"
+  },
+  {
+    "revision": "4908f31416ba617468d14cc20ebeadd7",
+    "url": "/Wojtek-blog/static/media/IMG_0943.4908f314.jpg"
   },
   {
     "revision": "3cfcddcee695adfc8746a84e07fabbc0",

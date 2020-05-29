@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Wojtek-blog/precache-manifest.25f3a6baf41342c275927933f8cefa74.js"
+  "/Wojtek-blog/precache-manifest.977c05ad8562ae73d1fe66b967cb9e15.js"
 );
 
 self.addEventListener('message', (event) => {
