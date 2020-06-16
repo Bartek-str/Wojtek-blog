@@ -6,52 +6,5 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    & > div {
-        margin-top: 10vh;
-        width: 25vw;
-        height: 90vh;
-        .title {
-            font-size: 4rem;
-            text-align: center;
-            padding-bottom: 2vh;
-            color: rgb(25, 25, 25);
-        }
-        .text {
-            color: rgb(25, 25, 25);
-            & > span {
-                font-size: 2.5rem;
-                display: block;
-                padding-top: 3vh;
-                line-height: 1.4;
-            }
-        }
-        .img {
-            background-size: cover;
-            background-position: center;
-            height: 40%;
-        }
-    }
-    .coffee {
-        padding-left: 5vw;
-        .coffeeIMG {
-            background-image: url("../../../assets/IMG_2326.jpg");
-        }
-    }
-    .food {
-        .foodIMG {
-            background-image: url("../../../assets/image0.jpeg");
-        }
-        .text {
-            text-align: center;
-        }
-    }
-    .tea {
-        padding-right: 5vw;
-        .teaIMG {
-            background-image: url("../../../assets/IMG_2750.jpg");
-        }
-        .text {
-            text-align: end;
-        }
-    }
+
 }

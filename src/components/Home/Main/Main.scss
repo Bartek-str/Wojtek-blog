@@ -1,7 +1,6 @@
 .main {
     width: 100vw;
-    height: 86vh;
-    padding-bottom: 5vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +16,7 @@
         }
         .text {
             font-size: 4rem;
-            width: 100%;
+            width: 80vw;
             text-align: start;
         }
         .mainText {
