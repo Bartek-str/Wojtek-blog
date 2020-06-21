@@ -7,6 +7,7 @@ function Home() {
         <>
             <Main />
             <Categories />
+
         </>
     );
 }

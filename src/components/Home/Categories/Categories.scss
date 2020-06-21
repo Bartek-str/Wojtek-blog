@@ -6,5 +6,105 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
+    .coffee:hover,
+    .food:hover,
+    .tea:hover {
+        border: 1px solid black;
+        border-radius: 4rem;
+    }
+    & > div {
+        width: 27vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        h1 {
+            margin-top: 2vh;
+            text-align: center;
+            font-size: 4rem;
+        }
+        .img {
+            margin-top: 2vh;
+            width: 80%;
+            height: 40vh;
+        }
+        .coffeeimg {
+            background-image: url('../../../assets/IMG_2326.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .breadimg {
+            background-image: url('../../../assets/image0.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .teaimg {
+            background-image: url('../../../assets/IMG_2750.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .text{
+            margin-top: 2vh;
+            width: 80%;
+            height: 50%;
+            & > p {
+                padding-top: 2vh;
+                width: 100%;
+                font-size: 2rem;
+                text-align: justify;
+                line-height: 1.4;
+            }
+        }
+    }
+    .posts {
+        width: 94vw;
+        height: 90vh;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        background-color: gray;
+        border-radius: 4rem;
+        .coffeeSelected,
+        .foodSelected,
+        .teaSelected {
+            background-color: white;
+            width: 27vw;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            border-radius: 4rem;
+            h1 {
+                margin-top: 2vh;
+                text-align: center;
+                font-size: 4rem;
+            }
+            .img {
+                margin-top: 2vh;
+                width: 80%;
+                height: 40vh;
+            }
+            .coffeeimg {
+                background-image: url('../../../assets/IMG_2326.jpg');
+                background-size: cover;
+                background-position: center;
+            }
+            .text{
+                margin-top: 2vh;
+                width: 80%;
+                height: 50%;
+                & > p {
+                    padding-top: 2vh;
+                    width: 100%;
+                    font-size: 2rem;
+                    text-align: justify;
+                    line-height: 1.4;
+                }
+            }
+        }
+    }
 }
