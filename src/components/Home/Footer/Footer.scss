@@ -1,0 +1,59 @@
+.Footer {
+    width: 100vw;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10vh;
+    .myImage {
+        width: 23vw;
+        height: 40vh;
+        border-radius: 50%;
+        background-image: url("../../../assets/IMG_0943.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .instagram {
+        width: 23vw;
+        height: 40vh;
+        background-color: gray;
+    }
+    .podcasts {
+        width: 23vw;
+        height: 40vh;
+        background-color: gray;
+    }
+    .container {
+        width: 93vw;
+        height: 50vh;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 4rem;
+        border: 1px solid gray;
+        .myImage {
+            margin-left: 3rem;
+        }
+        .aboutMe {
+            margin-left: 5rem;
+            width: 60vw;
+            height: 40vh;
+            p {
+                font-size: 2rem;
+                line-height: 1.4;
+                text-align: justify;
+                padding-bottom: 5rem;
+            }
+        }
+        .mail {
+            margin-top: 37vh;
+            width: 5vw;
+            height: 9vh;
+            background-color: gray;
+        }
+    }
+}
